@@ -2,7 +2,7 @@
 
 set -e
 
-export OPTIONS=$OPTIONS
+export URL=$URL
 
 if [[ "$1" == 'now' ]]; then
     exec /curl.sh

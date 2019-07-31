@@ -2,8 +2,6 @@
 
 set -e
 
-echo "$(date) - Start"
-
-curl $OPTIONS
-
-echo "$(date) End"
+echo "======= cURL Started at: $(date) ====="
+curl --silent $URL
+echo -e "\n========= cURL Ended at: $(date) ====="
